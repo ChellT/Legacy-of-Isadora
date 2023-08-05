@@ -4,7 +4,7 @@ body, html {
   
   body {
     /* The background */
-    background-image: url("/images/backgroundimage.gif");
+    background-image: url("images/backgroundimage.gif");
   
     /* to fix background image */
     background-position: center;
@@ -23,4 +23,12 @@ body, html {
     /*Bluring into the background*/
     filter: blur(2px);
     -webkit-filter: blur(1px);
+    
 }
+
+button {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+  }
