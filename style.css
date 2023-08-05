@@ -1,0 +1,26 @@
+body, html {
+    height: 80%;
+  }
+  
+  body {
+    /* The background */
+    background-image: url("/images/backgroundimage.gif");
+  
+    /* to fix background image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .titleOfGame {
+    padding-left: 23%; 
+  }
+.StartButton {
+
+    padding-left: 39%; 
+    padding-top: 10%; 
+
+    /*Bluring into the background*/
+    filter: blur(2px);
+    -webkit-filter: blur(1px);
+}
